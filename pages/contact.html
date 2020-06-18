@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BBPPK - Home</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="../">
+          <img src="../assets/images/logo.png" width="106" alt="bbppk-logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0 ml-lg-5 mr-lg-3">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search something here"
+                aria-label="Search something here"
+                aria-describedby="basic-addon2"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-info" type="button">
+                  <i class="material-icons">search</i>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link d-flex align-items-center"
+                href="./pages/about.html"
+              >
+                Tentang Kami
+                <i class="material-icons">arrow_drop_down</i>
+              </a>
+              <!-- <a
+                class="nav-link dropdown-toggle"
+                href="./pages/about.html"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Tentang Kami
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Berita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kontak</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item mr-lg-2 mb-lg-0 mb-md-2 mb-sm-2">
+              <button class="btn btn-info">
+                <a class="nav-link" href="#">Daftar</a>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-outline-light">
+                <a class="nav-link" href="./login.html">Login</a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="image-banner">
+        <img src="../assets/images/banner-4.png" alt="header-banner" />
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2 class="title-section">Hubungi Kami</h2>
+          </div>
+
+          <div class="row pt-5">
+            <div class="col">
+              <dl class="row">
+                <dt class="col-sm-2">Alamat</dt>
+                <dd class="col-sm-9">
+                  Jl. Raya Lembang No.222, Lembang, Kabupaten Bandung Barat,
+                  Jawa Barat 40391
+                </dd>
+
+                <dt class="col-sm-2">Telepon</dt>
+                <dd class="col-sm-9">(022) 2786053</dd>
+              </dl>
+            </div>
+            <div class="col">
+              <div class="category-section">
+                <div class="category-section-title">
+                  <h3 class="category-title font-weight-bold">
+                    Kirim Pesan
+                  </h3>
+                </div>
+                <p class="about-description">
+                  Anda dapat menggunakan form berikut untuk komentar atau
+                  pertanyaan .
+                </p>
+
+                <form method="POST">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Nama Lengkap Anda"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Alamat Email Anda"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Nomor Telepon Anda"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      rows="5"
+                      class="form-control"
+                      placeholder="Pesan Anda"
+                    ></textarea>
+                  </div>
+                </form>
+
+                <div class="submit-section text-right">
+                  <button class="btn btn-info px-5 py-3">Kirim</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-primary pt-4">
+      <div class="container footer">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/images/logo.png" width="206" alt="bbppk-logo" />
+        </a>
+      </div>
+      <div class="footer-addons bg-info"></div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".category-slides").slick({
+          slidesToShow: $(window).width() <= 425 ? 2 : 4,
+          slidesToScroll: 1,
+        });
+
+        $(".category-slides-2").slick({
+          slidesToShow: $(window).width() <= 425 ? 2 : 3,
+          slidesToScroll: 1,
+        });
+
+        $(".newspaper-slides").slick({
+          slidesToShow: $(window).width() <= 425 ? 1 : 2,
+          slidesToScroll: 1,
+        });
+      });
+    </script>
+  </body>
+</html>
