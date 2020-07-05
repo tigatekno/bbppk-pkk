@@ -19,8 +19,14 @@
 }
 
 /* Navbar */
-.navbar-nav > .nav-item > .nav-link {
+.navbar-nav > .nav-item > .nav-link, .navbar-nav > .nav-item > .nav-link .btn {
   color: #ffffff !important;
+  font-size: 12px;
+}
+
+.navbar-nav > .nav-item > .nav-link .btn {
+  padding-top: 8px;
+  padding-bottom: 6px;
 }
 
 /* Content */
@@ -33,6 +39,25 @@
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.btn {
+  font-size: 12px;
+  padding: 8px 24px;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+.text-description {
+  color: #858585;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* Card */

@@ -50,8 +50,14 @@ main {
   margin-bottom: 32px;
 }
 
+/* Image Banner */
+.image-banner img {
+  width: 100%;
+}
+
 /* Common Section */
 .section {
+  background-color: #F9F9F9;
   position: relative;
   padding: 3rem 0;
 }
@@ -64,7 +70,7 @@ main {
 
 .title-section {
   text-align: center;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -119,7 +125,7 @@ main {
 .filter-section {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 1px solid #CECECE;
+  border-bottom: 1px solid #cecece;
 }
 
 .filter-section:last-child {
@@ -153,7 +159,7 @@ main {
 
 .category-filter a i {
   color: #858585;
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
 .category-filter .active {
@@ -161,7 +167,7 @@ main {
   background-color: transparent !important;
 }
 
-/* Section Banner */ 
+/* Section Banner */
 img.section-banner {
   width: 100%;
   height: 100%;
@@ -205,4 +211,44 @@ img.section-banner {
   color: #f9f9f9;
   margin-bottom: 48px;
   text-align: center;
+}
+
+/* About Section */
+.about-section {
+  margin: 0 !important;
+  background-image: url("../images/banner-6.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #f9f9f9;
+}
+
+.logo-about {
+  text-align: center;
+}
+
+.logo-about img {
+  width: 184px;
+  height: 184px;
+}
+
+.about-subtitle {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.about-subtitle.category-title {
+  font-weight: bold !important;
+  margin-bottom: 0 !important;
+}
+
+.about-subtitle.category-title::after {
+  left: 350px !important;
+}
+
+.about-list li {
+  color: #858585;
+  font-size: 14px;
+  margin-bottom: 12px;
 }
