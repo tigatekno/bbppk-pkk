@@ -65,7 +65,251 @@
   </nav>
 
   <!-- Main Section -->
-  <main></main>
+  <main class="bg-white">
+    <section class="section bg-white">
+      <div class="container">
+        <div class="d-flex align-items-start">
+          <div class="rounded-circle bg-secondary tenant-avatar mr-5"></div>
+
+          <div class="flex-grow">
+            <h2 class="tenant-title">CV. Mitra Niaga Indonesia</h2>
+            <ul class="d-flex list-unstyled px-0 tenant-list-category">
+              <li class="list-inline-item mr-4"><a href="./all-product.html" class="active">Busana Muslim</a></li>
+              <li class="list-inline-item mr-4"><a href="./all-product.html">Bandung</a></li>
+              <li class="list-inline-item mr-4"><a href="#">Produksi Komersial</a></li>
+              <li class="list-inline-item mr-4"><a href="#">Perluasan Pasar</a></li>
+            </ul>
+
+            <ul id="tenant-tabs" class="d-flex-list-unstyled px-0 tenant-list-action nav nav-tabs" role="tablist">
+              <li class="list-inline-item nav-item">
+                <a href="#product" class="nav-link active" id="product-tab" data-toggle="tab" href="#product" role="tab"
+                  aria-controls="product" aria-selected="true">Produk</a>
+              </li>
+              <li class="list-inline-item nav-item">
+                <a href="#profile" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                  aria-controls="profile" aria-selected="false">Profil</a>
+              </li>
+              <li class="list-inline-item">
+                <span class="pitching">Sudah <b>1 kali</b> Pitching</span>
+                <span class="partners-count font-weight-bold">1 Mitra</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="tab-content" id="tenant-tab-content">
+      <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
+        <section class="section">
+          <div class="container">
+            <h3 class="tenant-subtitle">Produk Unggulan</h3>
+
+            <div class="row">
+              <div class="col-sm-12 col-md-4">
+                <img src="./assets/images/tenant-fesyen-4.png" alt="" class="tenant-main-product">
+              </div>
+              <div class="col-sm-12 col-md-8 tenant-product-detail">
+                <h4 class="product-title">Nama Produk Lorem Ipsum</h4>
+                <h5 class="product-price">Rp. 21.000 - 41.000</h5>
+
+                <hr>
+
+                <p class="tenant-desc">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                  Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                  galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section bg-white">
+          <div class="container">
+            <h3 class="tenant-subtitle">Produk Unggulan</h3>
+
+            <div class="row">
+              <div class="col-xs-6 col-sm-4 col-lg-3">
+                <a data-toggle="modal" data-target="#detail-product-modal">
+                  <div class="card tenant-card">
+                    <img class="card-img-top" src="./assets/images/tenant-fesyen-1.png" alt="Card image cap" />
+                    <div class="card-body">
+                      <h5 class="card-title">CV Mitra Niaga Indonesia</h5>
+                      <h6 class="card-subtitle">Fesyen</h6>
+                      <p class="card-text">Bandung</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-sm-4 col-lg-3">
+                <a data-toggle="modal" data-target="#detail-product-modal">
+                  <div class="card tenant-card">
+                    <img class="card-img-top" src="./assets/images/tenant-fesyen-2.png" alt="Card image cap" />
+                    <div class="card-body">
+                      <h5 class="card-title">PT Perusahaan Terbuka</h5>
+                      <h6 class="card-subtitle">Fesyen</h6>
+                      <p class="card-text">Jakarta</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-sm-4 col-lg-3">
+                <a data-toggle="modal" data-target="#detail-product-modal">
+                  <div class="card tenant-card">
+                    <img class="card-img-top" src="./assets/images/tenant-fesyen-3.png" alt="Card image cap" />
+                    <div class="card-body">
+                      <h5 class="card-title">CV Tas Bikin Sendiri</h5>
+                      <h6 class="card-subtitle">Fesyen</h6>
+                      <p class="card-text">Jakarta</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-xs-6 col-sm-4 col-lg-3">
+                <a data-toggle="modal" data-target="#detail-product-modal">
+                  <div class="card tenant-card">
+                    <img class="card-img-top" src="./assets/images/tenant-fesyen-1.png" alt="Card image cap" />
+                    <div class="card-body">
+                      <h5 class="card-title">CV Mitra Niaga Indonesia</h5>
+                      <h6 class="card-subtitle">Fesyen</h6>
+                      <p class="card-text">Bandung</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <hr>
+
+            <!-- Pagination -->
+            <div class="d-flex align-items-center pagination-wrapper">
+              <span class="mr-3">Halaman</span>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <!-- <li class="page-item">
+                      <a class="page-link border-0 px-0" href="#">
+                        <i class="material-icons">keyboard_arrow_left</i>
+                      </a>
+                    </li> -->
+                  <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">4</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">5</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">6</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link border-0 px-0" href="#">
+                      <i class="material-icons">keyboard_arrow_right</i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <section class="section">
+          <div class="container">
+            <h3 class="tenant-subtitle">Profil</h3>
+
+            <div class="row tenant-profile-detail">
+              <div class="col pr-5 flex-grow">
+                <p class="tenant-desc">
+                  Memproduksi segala jenis kopi gayo dengan melibatkan masyarakat sekitar untuk turut mensortir dan
+                  membungkus kopi ke dalam kemasan. Dengan jumlah karyawan sebanyak 21 orang, kapasitas produksi yang
+                  dihasilkan mencapai 10-20 ton perbulan dengan pemasaran menjangkau wilayah Aceh.
+                </p>
+              </div>
+              <div class="col pl-5 flex-grow">
+                <dl class="row tenant-detail">
+                  <dt class="col-sm-4">Alamat</dt>
+                  <dd class="col-sm-8 text-description">
+                    Jl. Raya dramaga, Leuwikopo, Dramaga, Bogor, 16117
+                  </dd>
+
+                  <dt class="col-sm-4">Kisaran Harga</dt>
+                  <dd class="col-sm-8 text-description">Rp 35.000 - 50.000</dd>
+
+                  <dt class="col-sm-4">Website</dt>
+                  <dd class="col-sm-8 text-description">www.perusahaan.com</dd>
+
+                  <dt class="col-sm-4">Media Sosial</dt>
+                  <dd class="col-sm-8 text-description">
+                    <ul class="list-unstyled">
+                      <li class="list-inline-item">
+                        <div class="sosmed-icon bg-success"></div>
+                      </li>
+                      <li class="list-inline-item">
+                        <div class="sosmed-icon bg-danger"></div>
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section image-banner">
+          <div class="container">
+            <h3 class="tenant-subtitle">Peta Tenant</h3>
+          </div>
+          <img src="../assets/images/map.png" alt="map-banner" />
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Product Modal -->
+  <div class="modal fade" id="detail-product-modal" tabindex="-1" role="dialog" aria-labelledby="product-item"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content" style="min-height: 80vh;">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-5">
+              <img src="./assets/images/tenant-fesyen-5.png" alt="" class="tenant-main-product">
+            </div>
+
+            <div class="col-sm-12 col-md-7 tenant-product-detail">
+              <h4 class="product-title">Nama Produk Lorem Ipsum</h4>
+              <h5 class="product-price">Rp. 21.000 - 41.000</h5>
+
+              <hr>
+
+              <p class="tenant-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer Template -->
   <footer class="bg-primary py-4">

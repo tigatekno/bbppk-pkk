@@ -57,7 +57,7 @@ main {
 
 /* Common Section */
 .section {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   position: relative;
   padding: 3rem 0;
 }
@@ -251,4 +251,173 @@ img.section-banner {
   color: #858585;
   font-size: 14px;
   margin-bottom: 12px;
+}
+
+/* Detail Product */
+.tenant-avatar {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.tenant-title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 47px;
+  color: #2060ad;
+}
+
+.tenant-list-category li a {
+  color: #858585;
+  font-weight: 300;
+}
+
+.tenant-list-category li a.active {
+  font-weight: bold;
+}
+
+.tenant-list-action {
+  border-top: 1px solid #cecece;
+}
+
+.tenant-list-action li {
+  padding: 1rem 3rem;
+}
+
+.tenant-list-action li * {
+  text-align: center;
+  color: #cecece;
+}
+
+.tenant-list-action li a {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.tenant-list-action li a:hover {
+  border: none !important;
+}
+
+.tenant-list-action li a.active {
+  color: #2060ad !important;
+  border: none !important;
+}
+
+.tenant-list-action li:nth-child(2) {
+  border-left: 1px solid #cecece;
+  border-right: 1px solid #cecece;
+}
+
+.partners-count {
+  margin-left: 3rem;
+  font-style: italic;
+}
+
+.section .tenant-subtitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  color: #858585;
+  margin-bottom: 1.5rem;
+}
+
+.tenant-main-product {
+  width: 100%;
+  object-fit: cover;
+}
+
+.tenant-product-detail .product-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.tenant-product-detail .product-price {
+  font-weight: bold;
+  color: #2060ad;
+}
+
+.tenant-product-detail hr {
+  background-color: #cecece !important;
+  height: 1px;
+}
+
+.tenant-desc {
+  font-size: 14px;
+  text-align: justify;
+  color: #858585;
+}
+
+.tenant-profile-detail .col:first-child {
+  border-right: .5px solid #CECECE;
+}
+
+.tenant-profile-detail .col:last-child {
+  border-left: .5px solid #CECECE;
+}
+
+.tenant-detail dt {
+  font-weight: 500;
+  color: #858585 !important;
+}
+
+.tenant-detail dt, .tenant-detail dd {
+  margin-bottom: 1rem;
+}
+
+.tenant-detail .sosmed-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+/* Auth Login */
+.auth-header {
+  background-image: url("../images/banner-4.png");
+  background-size: cover;
+  background-color: #2060ad;
+  margin: 0 !important;
+}
+
+.auth-header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  flex-direction: column;
+}
+
+.logo-auth {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.auth-header hr {
+  background-color: #29AAE1;
+  height: 3px;
+}
+
+.logo-auth img {
+  width: 86px;
+  height: 86px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.nav-pills .nav-link {
+  color: #C5EEFF;
+  background-color: #29AAE1;
+  padding: 1rem 0;
+}
+
+.nav-pills .nav-item:first-child .nav-link {
+  border-radius: 8px 0px 0px 0px;
+}
+
+.nav-pills .nav-item:last-child .nav-link {
+  border-radius: 0px 8px 0px 0px;
 }

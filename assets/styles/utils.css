@@ -8,6 +8,11 @@
   background-color: #2060ad !important;
 }
 
+.bg-secondary,
+.btn-secondary {
+  background-color: #c4c4c4 !important;
+}
+
 .bg-info,
 .btn-info {
   background-color: #29aae1 !important;
@@ -19,7 +24,8 @@
 }
 
 /* Navbar */
-.navbar-nav > .nav-item > .nav-link, .navbar-nav > .nav-item > .nav-link .btn {
+.navbar-nav > .nav-item > .nav-link,
+.navbar-nav > .nav-item > .nav-link .btn {
   color: #ffffff !important;
   font-size: 12px;
 }
